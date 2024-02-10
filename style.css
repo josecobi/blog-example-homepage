@@ -53,13 +53,13 @@ h1 {
 .continues {
     color: tomato;
     align-self: self-end;
-
 }
+
 article > p::first-letter {
     font-size: 5rem;
     font-weight: bold;
     color: lightgrey;
-    padding: 6px 3px;
+    padding: 3px 3px;
     margin-right: 20px;
     float: left;
 }
@@ -73,8 +73,11 @@ article p {
 }
 time{
     color: lightgray;
+    font-size: 1.5rem;
+
 }
 summary {
     display: block;
     text-align: right;
+    font-weight: bold;
 }
